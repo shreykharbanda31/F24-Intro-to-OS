@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/shreykharbanda/Downloads/OS Recitations/rec-2b/problem-1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D80, symSize: 0x128 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _currentState, symObjAddr: 0x8F4, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x83, offset: 0x83, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D80, symSize: 0x128 }
+  - { offsetInCU: 0xAB, offset: 0xAB, size: 0x8, addend: 0x0, symName: _idleState, symObjAddr: 0x128, symBinAddr: 0x100003EA8, symSize: 0x1C }
+  - { offsetInCU: 0xC0, offset: 0xC0, size: 0x8, addend: 0x0, symName: _runningState, symObjAddr: 0x144, symBinAddr: 0x100003EC4, symSize: 0x1C }
+  - { offsetInCU: 0xD5, offset: 0xD5, size: 0x8, addend: 0x0, symName: _finishedState, symObjAddr: 0x160, symBinAddr: 0x100003EE0, symSize: 0x1C }
+...
